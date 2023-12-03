@@ -39,7 +39,7 @@ def coffee_grounds_book(message):
 @bot.message_handler(func=lambda message: message.text == 'Руны')
 def runes(message):
     bot.send_message(message.chat.id, "Выбери 3 руны...")
-    # Здесь можно реализовать демонстрацию работы с рунами
+    #Тут нужно продолжение
 
 # Запуск обработчика сообщений
 bot.polling()
